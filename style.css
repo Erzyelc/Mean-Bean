@@ -1,0 +1,187 @@
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  color: #1D1C1C;
+  max-width: 1500px;
+  min-width: 1300px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    /*border: 2px solid red;*/
+}
+
+nav a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 11px;
+    /*border: 2px solid blue;*/
+    margin-left: 8px;
+    color: #1D1C1C;
+}
+
+.login{
+    background-color: #1D1C1C;
+    border-radius: 40px;
+    color: #fff;
+    border: none;
+    padding: 8px 24px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+    min-width: 1000px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 55px;
+}
+
+.input-email{
+    background-color: #F6F2EF;
+    border-radius: 16px;
+    border: none;
+    width: 400px;
+    height: 64px; 
+}
+
+::placeholder{
+    color: #917D6E;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arrow-button{
+    background-color: #FF5678;
+    border-radius: 40px;
+    border: none;
+    width: 62px;
+    height: 62px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 10px;
+    background-image: url("assets/arrow_right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img1{
+    width: 55%;
+}
+.about-section{
+    border-top: 2px solid #1D1C1C;
+    border-bottom: 2px solid #1D1C1C;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.about-section p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.inner-anchor{
+    color: #FF5678;
+}
+
+.offer-section h2{
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.offer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.card {
+    background: #F6F2EF;
+    border-radius: 16px;
+    width: 345px;
+    height: 420px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 192px;
+    height: 256px;
+}
+
+.card p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #917D6E;
+}
+
+.card button{
+    background: #FF5678;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    letter-spacing: 3px;
+    width: 157px;
+    height: 48px;
+}
+
+footer{
+    background: #1D1C1C;
+    color: #fff;
+    height: 229px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+
+footer p{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer nav a{
+    color: #fff;
+    font-size: 30px;
+}
